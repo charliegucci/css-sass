@@ -29,6 +29,9 @@ a {
   display: inline-block;
   width: 5em;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #footer {
