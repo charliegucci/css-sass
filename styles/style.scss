@@ -1,1 +1,52 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+$primary-bgcolor: red;
+$secondary-bgcolor: green;
+$primary-font-color: blue;
+$secondary-font-color: pink;
+$primary-font-family: 'Roboto',
+sans-serif;
+$secondary-font-family: 'Roboto',
+sans-serif;
+
+p {
+    font-size: 1em;
+    color: red;
+    font-family: $primary-font-family;
+}
+
+h1 {
+    font-family: $secondary-font-family;
+    color: $secondary-font-color;
+}
+
+#container {
+    color: $secondary-bgcolor;
+
+}
+
+#main {
+    color: $primary-font-color;
+}
+
+.maintext {
+    color: $primary-font-color;
+}
+
+a {
+    color: $primary-font-color;
+}
+
+#main-nav {
+    display: inline-block;
+    width: 5em;
+    text-align: center;
+}
+
+#footer {
+    width: 30px;
+    height: 40;
+
+    &:hover {
+        width: 40px;
+        height: 40px;
+    }
+}

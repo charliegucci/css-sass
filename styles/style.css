@@ -1,2 +1,43 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+p {
+  font-size: 1em;
+  color: red;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: pink;
+}
+
+#container {
+  color: green;
+}
+
+#main {
+  color: blue;
+}
+
+.maintext {
+  color: blue;
+}
+
+a {
+  color: blue;
+}
+
+#main-nav {
+  display: inline-block;
+  width: 5em;
+  text-align: center;
+}
+
+#footer {
+  width: 30px;
+  height: 40;
+}
+
+#footer:hover {
+  width: 40px;
+  height: 40px;
+}
 /*# sourceMappingURL=style.css.map */
